@@ -1,0 +1,14 @@
+<p>Here are the courses!</p>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let course of courses$ | async">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ course.id }}</h5>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">{{ course.title }}</li>
+          <li class="list-group-item">${{ course.author }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>

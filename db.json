@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "ngrx course by UK",
+      "author": "UK"
+    },
+    {
+      "id": 2,
+      "title": "angular course in 1 day",
+      "author": "UK"
+    }
+  ]
+}
